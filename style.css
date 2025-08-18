@@ -1,0 +1,27 @@
+.nav_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left_links,
+.right_links{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+.left_links a,
+.right_links a{
+    color: black;
+    font-size: 32px;
+    text-decoration: none;
+
+}
+
+.nav_bar img{
+    height: 80px;
+}
+
+.card img{
+    margin-top: 10px;
+}
